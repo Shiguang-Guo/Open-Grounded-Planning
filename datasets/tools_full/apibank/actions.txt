@@ -1,0 +1,101 @@
+GetUserToken DESCRIPTION: Get user token.
+RegisterUser DESCRIPTION: register a new user with their username, password, and email.
+DeleteAccount DESCRIPTION: Delete account.
+ModifyPassword DESCRIPTION: Modify password.
+ForgotPassword DESCRIPTION: Forgot Password.
+AddReminder DESCRIPTION: create new reminders with the specified content and time.
+DeleteReminder DESCRIPTION: Delete a reminder.
+ModifyReminder DESCRIPTION: Modify an existing reminder.
+QueryReminder DESCRIPTION: Get a list of all reminders.
+AddMeeting DESCRIPTION: Book a meeting.
+DeleteMeeting DESCRIPTION: Cancel a meeting.
+ModifyMeeting DESCRIPTION: Modify a meeting.
+QueryMeeting DESCRIPTION: Query meeting.
+AddAgenda DESCRIPTION: Add an agenda.
+DeleteAgenda DESCRIPTION: Delete an agenda.
+ModifyAgenda DESCRIPTION: A modify agenda.
+QueryAgenda DESCRIPTION: get the your agenda.
+AssignPriority DESCRIPTION: assigns priority to a task.
+AddAlarm DESCRIPTION: Add an alarm clock.
+DeleteAlarm DESCRIPTION: Cancel an alarm.
+ModifyAlarm DESCRIPTION: Modify an alarm.
+QueryAlarm DESCRIPTION: Query alarm.
+CheckTimeConflict DESCRIPTION: Check time conflict.
+GetToday DESCRIPTION: Get a list of today's tasks which are not completed yet.
+Transfer DESCRIPTION: transfer money between accounts.
+OpenBankAccount DESCRIPTION: Open bank account.
+DeleteBankAccount DESCRIPTION: Delete a bank account.
+ModifyBankAccount DESCRIPTION: Modify bank account.
+QueryBankAccount DESCRIPTION: A query bank account.
+QueryExchangeRate DESCRIPTION: Query Exchange Rate.
+QueryTradeDetail DESCRIPTION: Query trade details.
+QueryStock DESCRIPTION: Query stock.
+QueryBalance DESCRIPTION: query account balance.
+QueryHistoryToday DESCRIPTION: Query historical events happened Today.
+SearchEngine DESCRIPTION: searching items based on keywords.
+Wiki DESCRIPTION: search on Wikipedia.
+KnowledgeGraph DESCRIPTION: querying a Knowledge Graph.
+Dictionary DESCRIPTION: look up in dictionary.
+EcommerceSearch DESCRIPTION: searching products in an ecommerce platform using a keyword search.
+ImageCaption DESCRIPTION: caption an image.
+SpeechRecognition DESCRIPTION: performs speech recognition on an audio file containing spoken words.
+Translate DESCRIPTION: Translate.
+Summarization DESCRIPTION: summary a text.
+ObjectDetection DESCRIPTION: detects objects in the given image.
+TableQA DESCRIPTION: extracts information from a given table based on a given question.
+DocumentQA DESCRIPTION: provide answers for questions given a document content.
+SpeechGeneration DESCRIPTION: converts the given text content into an audio file in a speech-like format.
+VideoDescription DESCRIPTION: describe a video.
+PaperSummary DESCRIPTION: generates a summary of a research paper.
+SendMessage DESCRIPTION: send a message to a recipient with a specified content and attachment (if applicable).
+SendIM DESCRIPTION: Send an IM.
+SendEmail DESCRIPTION: Send email to a recipient with specified subject and content.
+ReceiveEmail DESCRIPTION: Receive email notification.
+Calculator DESCRIPTION: perform arithmetic calculations on an infix expression.
+ExpressQuery DESCRIPTION: query the shipment tracking details of an order based on the order number and the name of the courier company who is handling the delivery.
+QueryHealthData DESCRIPTION: retrieves the health data of a user for a specific time period.
+SymptomSearch DESCRIPTION: searches for medical conditions based on symptom descriptions.
+EmergencyKnowledge DESCRIPTION: provides information about emergency procedures and first aid activities related to a particular disease or injury.
+AppointmentRegistration DESCRIPTION: Register an appointment.
+CancelRegistration DESCRIPTION: Cancel a registration.
+ModifyRegistration DESCRIPTION: Modify Registration.
+QueryRegistration DESCRIPTION: Query registration.
+RecordHealthData DESCRIPTION: Record health history.
+ControlDevice DESCRIPTION: Control a device.
+AddScene DESCRIPTION: Add a scene.
+DeleteScene DESCRIPTION: Delete a scene.
+ModifyScene DESCRIPTION: ModifyScene.
+QueryScene DESCRIPTION: query a specific 'scene' by providing a 'scene_name'.
+TimedSwitch DESCRIPTION: scheduling a timed switch. Sets a switch-time for the specified device-id and executes an on/off command at the specified time.
+CancelTimedSwitch DESCRIPTION: canceling a timed switch on a device using its 'device ID' and 'switch time'.
+QuerySmartHome DESCRIPTION: Smart home query.
+PlayMusic DESCRIPTION: Play Music.
+SearchMovieMusic DESCRIPTION: Search for movies or music.
+IdentifySong DESCRIPTION: Identify Song.
+BookTicket DESCRIPTION: Book a ticket.
+CancelTicket DESCRIPTION: cancels a ticket.
+ModifyTicket DESCRIPTION: updates the reservation date for a given order number.
+QueryTicket DESCRIPTION: Query ticket.
+Navigation DESCRIPTION: Navigation.
+QueryPlaces DESCRIPTION: search places based on the given keywords, location and category.
+SearchAround DESCRIPTION: search for nearby locations based on the provided location, radius and category.
+QueryHotel DESCRIPTION: Query hotel.
+QueryWeather DESCRIPTION: query the weather forecast for a specified location and time.
+BookHotel DESCRIPTION: Book a hotel.
+CancelHotelBooking DESCRIPTION: Cancel a hotel booking.
+ModifyHotelBooking DESCRIPTION: Modify Hotel Booking.
+QueryHotelBooking DESCRIPTION: Query hotel bookings.
+BuyTrainTicket DESCRIPTION: buy train tickets.
+CancelTrainTicket DESCRIPTION: Cancel a train ticket.
+ModifyTrainTicket DESCRIPTION: modify train ticket order with specified 'order_number'.
+QueryTrainTicket DESCRIPTION: Query Train Ticket.
+Schedule DESCRIPTION: add or modify events on a particular date.
+Memo DESCRIPTION: A memo.
+SearchBook DESCRIPTION: Search book.
+OnlineCourseSearch DESCRIPTION: Search for online courses.
+ExamSchedule DESCRIPTION: schedule an exam,.
+AIConferenceSearch DESCRIPTION: search for conferences related to artificial intelligence.
+JobSearch DESCRIPTION: returns available jobs.
+CompanyAnnualReport DESCRIPTION: Retrieves the annual report of a company for a particular year.
+CompanyBusinessScope DESCRIPTION: Retrieve the business scope of a company using the company name.
+RecruitmentInformation DESCRIPTION: Search recruitment information.

@@ -1,0 +1,97 @@
+bring it to you
+close the drawer
+find a 7up
+find a 7up can
+find a bag of chips
+find a banana
+find a blue chip bag
+find a coke
+find a coke can
+find a energy bar
+find a grapefruit lacroix
+find a lime drink
+find a lime soda
+find a multigrain chips
+find a pepsi
+find a redbull
+find a redbull can
+find a rice chips
+find a rxbar
+find a sea salt chips
+find a sponge
+find a sprite can
+find a tea
+find a water
+find a water bottle
+find an apple
+find an orange
+find jalapeno chips
+find jalapeno chipss
+go to the close counter
+go to the counter
+go to the drawer
+go to the far counter
+go to the table
+go to the trash
+go to the trash can
+open the drawer
+pick up coke can
+pick up the 7up
+pick up the 7up can
+pick up the apple
+pick up the bag of chips
+pick up the banana
+pick up the blue chip bag
+pick up the coke
+pick up the coke can
+pick up the energy bar
+pick up the grapefruit lacroix
+pick up the grapefruit soda
+pick up the green can
+pick up the jalapeno chip
+pick up the jalapeno chips
+pick up the lime soda
+pick up the multigrain chips
+pick up the orange
+pick up the pepsi
+pick up the redbull
+pick up the rice chips
+pick up the rx chocolate bar
+pick up the rxbar
+pick up the sea salt chips
+pick up the sponge
+pick up the sprite can
+pick up the tea
+pick up the water
+pick up the water bottle
+put down the 7up
+put down the 7up can
+put down the apple
+put down the apple in the trash
+put down the bag of chips
+put down the banana
+put down the blue chip bag
+put down the chips
+put down the coke
+put down the coke can
+put down the energy bar
+put down the grapefruit lacroix
+put down the grapefruit soda
+put down the green can
+put down the jalapeno chip
+put down the jalapeno chips
+put down the lime soda
+put down the multigrain chips
+put down the orange
+put down the pepsi
+put down the redbull
+put down the redbull can
+put down the rice chips
+put down the rx chocolate bar
+put down the rxbar
+put down the sea salt chips
+put down the sponge
+put down the sprite can
+put down the tea
+put down the water
+put down the water bottle

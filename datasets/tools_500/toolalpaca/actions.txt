@@ -1,0 +1,89 @@
+CountryCountryInfo DESCRIPTION: Get country info for the given country.
+CountryAvailableCountries DESCRIPTION: Get all available countries.
+LongWeekendLongWeekend DESCRIPTION: Get long weekends for a given country.
+PublicHolidayPublicHolidaysV3 DESCRIPTION: Get public holidays.
+PublicHolidayIsTodayPublicHoliday DESCRIPTION: Is today a public holiday.
+PublicHolidayNextPublicHolidays DESCRIPTION: Returns the upcoming public holidays for the next 365 days for the given country.
+PublicHolidayNextPublicHolidaysWorldwide DESCRIPTION: Returns the upcoming public holidays for the next 7 days.
+VersionGetVersion DESCRIPTION: Get version of the used Nager.Date library.
+AirportApi_getAirport DESCRIPTION: get airport based on the ICAO code.
+jokes_random_get DESCRIPTION: Retrieve a random Chuck Norris joke.
+jokes_random_category_get DESCRIPTION: Retrieve a random Chuck Norris joke by category.
+jokes_categories_get DESCRIPTION: Retrieve a list of available categories.
+jokes_search_get DESCRIPTION: Free text search for Chuck Norris jokes.
+api_v2_facts_random_get DESCRIPTION: Get random useless fact.
+api_v2_facts_today_get DESCRIPTION: Get today's useless fact.
+current_get DESCRIPTION: Get current weather.
+api_v2_entries_en_word_get DESCRIPTION: Get word definitions.
+result_get DESCRIPTION: Get short answer from Wolfram Alpha.
+getFruitByName DESCRIPTION: Get a fruit information by its name.
+getAllFruits DESCRIPTION: Get all fruits.
+getFruitByFamily DESCRIPTION: Get a fruit by family.
+getFruitsByGenus DESCRIPTION: Get fruits by genus.
+getFruitsByOrder DESCRIPTION: Get fruits by order.
+getRandomCat DESCRIPTION: Get random cat.
+findCatById DESCRIPTION: Get cat by id.
+findCatByTag DESCRIPTION: Get random cat by tag.
+findCatWithText DESCRIPTION: Get random cat saying text.
+api DESCRIPTION: Will return all cats.
+tags DESCRIPTION: Will return all tags.
+count DESCRIPTION: Count how many cats.
+latest_get DESCRIPTION: Get real-time exchange rates for all supported currencies.
+historical_get DESCRIPTION: Get historical exchange rate data for a specific date.
+timeseries_get DESCRIPTION: Get historical exchange rate data for a specified time range.
+currencies_get DESCRIPTION: Get information about supported currencies.
+convert_get DESCRIPTION: Convert an amount from one currency to another.
+getRandomAxolotlImage DESCRIPTION: Retrieve a random axolotl image with information on the image source.
+searchAxolotlImages DESCRIPTION: Search for axolotl images based on specific criteria such as color, gender, and size.
+getAxolotlFacts DESCRIPTION: Retrieve interesting facts about axolotls such as their habits, habitats, and physical characteristics.
+getAnimeDetails DESCRIPTION: Retrieve information about a specific anime series, movie, or episode.
+searchAnime DESCRIPTION: Search for anime based on a query string and optional filters.
+getCastAndCrew DESCRIPTION: Retrieve cast and crew details for a specific anime.
+getRecommendations DESCRIPTION: Retrieve recommendations for similar anime based on a specified anime.
+getStreamingServices DESCRIPTION: Retrieve a list of streaming services that offer a specific anime.
+synchronizeTracking DESCRIPTION: Synchronize an anime's watch progress with a tracking service.
+reportAbusiveIP DESCRIPTION: Report an abusive IP address or domain to the AbuseIPDB database.
+checkIPReputation DESCRIPTION: Query the AbuseIPDB database for the reputation score of a given IP address or domain.
+getPublishedDataFeeds DESCRIPTION: Retrieve published data feeds from AbuseIPDB to integrate with third-party security tools.
+searchReports DESCRIPTION: Search the AbuseIPDB database for abuse reports based on various criteria.
+generateAvatar DESCRIPTION: Create a unique avatar based on the user's preferences.
+generateServerIcon DESCRIPTION: Generate an icon for a Discord server based on the user's style preferences.
+generateRandomImage DESCRIPTION: Generate a custom image that matches the user's taste.
+searchUser DESCRIPTION: Search for a Discord user by their username or ID.
+listServerMembers DESCRIPTION: List the members of a Discord server.
+authenticateUser DESCRIPTION: Authenticate a user using their credentials and a specified identity provider.
+getUserProfile DESCRIPTION: Retrieve the user profile for a given user ID.
+updateUserProfile DESCRIPTION: Update the user profile for a given user ID.
+assignUserRole DESCRIPTION: Assign a role to a user.
+listRoles DESCRIPTION: List all available roles in the application.
+createRole DESCRIPTION: Create a new role in the application.
+deleteRole DESCRIPTION: Delete a role from the application.
+initiatePasswordlessAuthentication DESCRIPTION: Initiate a passwordless authentication process for a user.
+verifyPasswordlessAuthentication DESCRIPTION: Verify the user's passwordless authentication using the provided verification code.
+getHolidaysByCountry DESCRIPTION: Retrieve a list of holidays for a specific country with dates, descriptions, and types.
+getHolidayDetails DESCRIPTION: Retrieve detailed information on a specific holiday, including its history, purpose, and traditions.
+searchHolidays DESCRIPTION: Search for holidays based on keywords, country, and date range.
+listCountries DESCRIPTION: Retrieve a list of countries supported by the API.
+listLanguages DESCRIPTION: Retrieve a list of languages supported by the API for holiday descriptions.
+getExchangeRates DESCRIPTION: Retrieve real-time currency exchange rates for all pairs and intervals.
+convertCurrency DESCRIPTION: Convert currency values from one currency to another.
+getHistoricalData DESCRIPTION: Retrieve historical data for a specific currency pair.
+setPriceAlert DESCRIPTION: Receive notifications when a specific currency pair reaches a certain price.
+getQuotes DESCRIPTION: Get quotes for precious metals and cryptocurrencies.
+getSpecificVerse DESCRIPTION: Retrieve a specific verse from a particular book and chapter of the Bible.
+getAllVersesFromChapter DESCRIPTION: Retrieve all verses from a specific chapter of a given book of the Bible.
+getBookMetadata DESCRIPTION: Retrieve metadata for a specific book of the Bible.
+getBibleVersionList DESCRIPTION: Retrieve a list of all available versions of the Bible in a specific language.
+getBibleLanguages DESCRIPTION: Retrieve a list of all languages available for Bible versions.
+searchVerses DESCRIPTION: Search for verses in the Bible containing a specific text.
+createDashboard DESCRIPTION: Create a new dashboard.
+updateDashboard DESCRIPTION: Modify an existing dashboard.
+deleteDashboard DESCRIPTION: Delete an existing dashboard.
+createDataSource DESCRIPTION: Create a new data source.
+updateDataSource DESCRIPTION: Modify an existing data source.
+deleteDataSource DESCRIPTION: Delete an existing data source.
+managePermissions DESCRIPTION: Manage permissions for dashboards and data sources.
+configureAlerts DESCRIPTION: Configure email notifications for data alerts and updates.
+embedDashboard DESCRIPTION: Embed a dashboard into another application.
+verifyUSAddress DESCRIPTION: Verify a given US address to ensure it meets USPS standards and is deliverable.
+standardizeUSAddress DESCRIPTION: Standardize a given US address to create consistency and accuracy in addressing.
