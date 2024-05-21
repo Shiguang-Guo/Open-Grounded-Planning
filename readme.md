@@ -13,6 +13,28 @@ The benchmark we built is in the `datasets` directory, which contains `xxx_full`
 
 ## Code
 We provide experimental code for the various methods described in the paper under `generate/generate_loop.py`. You may need to modify the path and add the openai key under `utils/chat.py` and `utils/embedding.py` to run the script correctly.
+
 We used `text-embedding-ada-002` to generate embeddings for each action. We did not upload the generated embeddings due to the large size of the generated files. You can use `utils/embedding.py` to easily generate an embedding for each action in the action sets, then save all the embeddings to a file and place it in the corresponding dataset directory to run the experiment.
 
+We also provide evaluation code for models and methods compared in our work under directory `evaluate`. You could modify the parameters in `eval.sh` to elegantly control the evaluation process. 
 
+The following parameters could be changed:
+* eval_model: Model to be evaluated, including [sft, chatgpt, vicuna, llama]
+* baseline_method: Type of baseline method, including [plan_retrieve, task_retrieve, select, dfs, rewrite]
+* version: Version of evaluation
+* eval_set_type: Type of evaluation set, including: [wikihow, tools, robot]
+* eval_fast: Whether to do fast evaluation. If evaluating fast, only the first 100 cases will be tested, otherwise the whole eval set will be under evaluation
+
+```
+# eval.sh
+python evaluate.py \
+        --eval_model llama \
+        --baseline_method task_retrieve \
+        --version final_eval \
+        --eval_set_type wikihow \
+        --eval_fast False
+```
+
+You could also evaluate any model and any method you are interested in by placing your generation results in the `eval_records_dir` path in `evaluate.py` (which could be customized) and modifying the corresponding parameter in `eval.sh`. 
+
+To accumulate the evaluation result, you could run `get_score_result.py`. Add evaluation result path to `eval_result_dir_list` to get multiple evaluation results in one run.
