@@ -1,6 +1,6 @@
 # Open Grounded Planning: Challenges and Benchmark Construction
 <p>
-📃 <a href="">ArXiv Paper</a>
+📃 <a href="ArXiv Paper">https://arxiv.org/pdf/2406.02903</a>
 </p>
 
 ## Introduction
@@ -38,3 +38,14 @@ python evaluate.py \
 You could also evaluate any model and any method you are interested in by placing your generation results in the `eval_records_dir` path in `evaluate.py` (which could be customized) and modifying the corresponding parameter in `eval.sh`. 
 
 To accumulate the evaluation result, you could run `get_score_result.py`. Add evaluation result path to `eval_result_dir_list` to get multiple evaluation results in one run.
+
+## Citation
+If you find our paper or repo useful, please consider citing:
+```
+@article{guo2024open,
+  title={Open Grounded Planning: Challenges and Benchmark Construction},
+  author={Guo, Shiguang and Deng, Ziliang and Lin, Hongyu and Lu, Yaojie and Han, Xianpei and Sun, Le},
+  journal={arXiv preprint arXiv:2406.02903},
+  year={2024}
+}
+```
